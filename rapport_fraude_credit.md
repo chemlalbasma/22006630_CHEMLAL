@@ -1,3 +1,7 @@
+Nom&Prénom: CHEMLAL Basma 
+![7ccc5a16-c41d-47d2-927d-e98ea8499f89](https://github.com/user-attachments/assets/f51e8771-2d16-4b62-999e-3a8132ea55a4)
+
+
 # Rapport Académique : Détection de Fraude de Crédit
 
 ## 1. Contexte et Objectif
