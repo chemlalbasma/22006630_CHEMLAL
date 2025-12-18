@@ -37,6 +37,22 @@ Comment détecter efficacement les transactions frauduleuses dans un contexte de
 **Insight 2 - Montants différenciés** : Les transactions frauduleuses présentent des montants significativement plus faibles (médiane ~€60) comparé aux transactions légitimes (médiane ~€22), suggérant des stratégies de fraude visant des montants discrets.
 
 **Insight 3 - Distribution temporelle** : Les fraudes se concentrent durant des plages horaires spécifiques, indiquant des patterns comportementaux exploitables pour la détection.
+## Analyse de Corrélation
+<img width="1276" height="387" alt="graphe1" src="https://github.com/user-attachments/assets/daf0be37-f218-4a79-a4c0-a005e08f8440" />
+<img width="1276" height="387" alt="GRAPHE2" src="https://github.com/user-attachments/assets/e258d132-075c-43a9-9e1a-023ff9b8890c" />
+<img width="401" height="276" alt="GRAPHE3" src="https://github.com/user-attachments/assets/989adf10-c36f-40bb-bf85-40514077f9f3" />
+<img width="395" height="275" alt="GRAPHE4" src="https://github.com/user-attachments/assets/c153ed72-604d-469e-999f-0e5cf8922568" />
+<img width="736" height="387" alt="GRAPHE5" src="https://github.com/user-attachments/assets/f0b7d33c-300e-45eb-a0a3-4fd0ebe9b587" />
+<img width="231" height="231" alt="GRAPHE6" src="https://github.com/user-attachments/assets/ff841754-ae4c-467a-8869-b560e3f606c7" />
+<img width="322" height="224" alt="GRAPHE7" src="https://github.com/user-attachments/assets/d33bc6d0-e393-460e-b49e-9ae7d5229a18" />
+<img width="335" height="333" alt="GRAPHE8" src="https://github.com/user-attachments/assets/71374b30-6510-4f9a-8baf-e8a6a76b9869" />
+<img width="335" height="333" alt="GRAPHE9" src="https://github.com/user-attachments/assets/1987d811-c7f9-44fb-a845-08413ecf9036" />
+<img width="322" height="252" alt="GRAPHE10" src="https://github.com/user-attachments/assets/b176d33b-3638-48cb-a1e6-a1f87e83203e" />
+
+
+
+
+
 
 ### Figure synthétique
 
