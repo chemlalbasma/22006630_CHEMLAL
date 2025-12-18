@@ -5,9 +5,15 @@ Nom&Prénom: CHEMLAL Basma
 
 # Rapport Académique : Détection de Fraude de Crédit
 
-## 1. Contexte et Objectif
+
+## 1 INTRODUCTION
+## 1.1 Contexte et Objectif
 
 La fraude par carte de crédit représente un enjeu financier majeur avec des pertes mondiales estimées à plusieurs milliards de dollars annuellement. Ce projet vise à développer un modèle de machine learning capable d'identifier automatiquement les transactions frauduleuses en temps réel. L'objectif principal est de maximiser la détection des fraudes tout en minimisant les faux positifs qui impactent l'expérience client. L'approche repose sur l'analyse de patterns transactionnels et l'utilisation d'algorithmes supervisés pour classifier les transactions suspectes.
+## 1.2 Problématique
+
+Comment détecter efficacement les transactions frauduleuses dans un contexte de données fortement déséquilibrées, tout en minimisant les faux positifs afin de préserver l’expérience client et la fiabilité des systèmes de paiement ?
+
 
 ## 2. Données et Nettoyage
 
