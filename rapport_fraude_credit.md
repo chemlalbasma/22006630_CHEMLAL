@@ -131,7 +131,16 @@ XGBoost démontre les meilleures performances avec un F1-score de 0.88 et un AUC
 3. **Optimisation coût-sensible** : Définir une matrice de coûts métier et ré-entraîner avec une fonction objectif personnalisée maximisant le ROI.
 
 4. **Monitoring continu** : Déployer des alertes de drift de données et ré-entraînement mensuel automatique pour s'adapter aux nouvelles fraudes émergentes.
+   
+8 **Discussion**
 
+Les résultats obtenus confirment que la détection de fraude par carte de crédit nécessite une attention particulière dans le choix des métriques d’évaluation. Contrairement aux problèmes de classification classiques, l’accuracy seule n’est pas suffisante en raison du fort déséquilibre des classes. Le recall de la classe fraude apparaît comme une métrique prioritaire, car une transaction frauduleuse non détectée peut entraîner des pertes financières directes pour l’institution bancaire. Toutefois, un recall trop élevé peut s’accompagner d’un nombre important de faux positifs, entraînant le blocage injustifié de cartes et une dégradation de l’expérience client.
+
+Les modèles complexes, en particulier les modèles d’ensemble comme XGBoost, montrent une capacité supérieure à capturer les relations non linéaires présentes dans les données transactionnelles. Cette performance accrue s’explique par leur aptitude à exploiter des interactions complexes entre variables. Cependant, cette complexité pose des défis en termes d’interprétabilité, un aspect crucial dans le secteur financier où les décisions doivent être justifiables et conformes aux exigences réglementaires. Ainsi, un compromis entre performance prédictive et explicabilité du modèle est indispensable pour une mise en production réaliste.
 ---
 
-**Conclusion** : Ce projet démontre la faisabilité d'une détection automatisée de fraude avec des performances prometteuses (AUC 0.99). Néanmoins, le passage en production nécessite des améliorations sur l'interprétabilité, la robustesse temporelle et l'intégration dans un écosystème de contrôle multicouche.
+9 **Conclusions et Perspectives**
+
+Ce projet met en évidence l’apport significatif du machine learning dans la lutte contre la fraude par carte de crédit. L’analyse montre que les modèles d’ensemble, et en particulier XGBoost, offrent les meilleures performances dans un contexte de données déséquilibrées, grâce à leur robustesse et leur capacité à généraliser efficacement. Le pipeline mis en place, intégrant exploration des données, prétraitement et modélisation, constitue une base méthodologique solide pour un système de détection automatisé.
+
+En termes de perspectives, plusieurs axes d’amélioration peuvent être envisagés. L’intégration de méthodes d’explicabilité, telles que SHAP ou LIME, permettrait de mieux comprendre les décisions du modèle et de renforcer la confiance des acteurs métiers. Une optimisation avancée des hyperparamètres pourrait également améliorer les performances. Enfin, l’évaluation du modèle sur des données temporelles réelles, simulant un flux de transactions en temps réel, représenterait une étape clé vers un déploiement opérationnel. Ce travail constitue ainsi une base pertinente pour le développement futur d’un système intelligent de détection de fraude bancaire. 
