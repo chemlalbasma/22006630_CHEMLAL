@@ -136,7 +136,6 @@ XGBoost démontre les meilleures performances avec un F1-score de 0.88 et un AUC
 
 Les résultats obtenus confirment que la détection de fraude par carte de crédit nécessite une attention particulière dans le choix des métriques d’évaluation. Contrairement aux problèmes de classification classiques, l’accuracy seule n’est pas suffisante en raison du fort déséquilibre des classes. Le recall de la classe fraude apparaît comme une métrique prioritaire, car une transaction frauduleuse non détectée peut entraîner des pertes financières directes pour l’institution bancaire. Toutefois, un recall trop élevé peut s’accompagner d’un nombre important de faux positifs, entraînant le blocage injustifié de cartes et une dégradation de l’expérience client.
 
-Les modèles complexes, en particulier les modèles d’ensemble comme XGBoost, montrent une capacité supérieure à capturer les relations non linéaires présentes dans les données transactionnelles. Cette performance accrue s’explique par leur aptitude à exploiter des interactions complexes entre variables. Cependant, cette complexité pose des défis en termes d’interprétabilité, un aspect crucial dans le secteur financier où les décisions doivent être justifiables et conformes aux exigences réglementaires. Ainsi, un compromis entre performance prédictive et explicabilité du modèle est indispensable pour une mise en production réaliste.
 ---
 
 9 **Conclusions et Perspectives**
