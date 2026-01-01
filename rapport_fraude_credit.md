@@ -6,9 +6,10 @@ Nom&Prénom: CHEMLAL Basma
 
 
 # Rapport Académique : Détection de Fraude de Crédit
+
 **Table de matière**
-Introduction
-Données et Nettoyage
+1. Introduction
+2. Données et Nettoyage
 3. Analyse Exploratoire (EDA)
 4. Méthodologie de Split et Modèles Testés
 5. Résultats et Interprétations
